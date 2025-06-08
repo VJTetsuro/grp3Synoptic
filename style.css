@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .makersvalley {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 300px;
+    width: auto;
+  }
+  
+  .header {
+    margin-top: 60px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .H1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .login-card {
+    margin-top: 40px;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+  
+  .loginH2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #loginform {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .labels {
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .userid, .password {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: border 0.3s;
+  }
+  
+  
+  .userid:focus, .password:focus {
+    border-color: #0072ff;
+    outline: none;
+  }
+  
+  .submit {
+    padding: 12px;
+    background-color: #0072ff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submit:hover {
+    background-color: #005dd1;
+  }
