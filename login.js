@@ -10,7 +10,7 @@ document.getElementById('loginform').addEventListener('submit', function(e) {
   
     if (userID === validUserID && password === validPassword) {
       // Credentials match, redirect to next page
-      window.location.href = "page.html";
+      window.location.href = "main.html";
     } else {
       alert("Invalid userID or password. Please try again.");
     }
