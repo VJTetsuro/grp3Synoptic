@@ -15,3 +15,6 @@ document.getElementById('loginform').addEventListener('submit', function(e) {
       alert("Invalid userID or password. Please try again.");
     }
   });
+
+  const img = document.getElementById('PrintTag');
+  console.log(img);
