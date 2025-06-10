@@ -31,6 +31,8 @@ body {
   }
   
   .H1 {
+    margin-right: 800px;
+    text-align: left;
     font-size: 64px;
     font-weight: 700;
     color: white;
@@ -90,4 +92,19 @@ body {
   
   .submit:hover {
     background-color: #005dd1;
+  }
+
+
+  .menuButton {
+    margin-top: 60px;
+    margin-right: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 80px 80px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
