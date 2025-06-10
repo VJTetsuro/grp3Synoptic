@@ -1,11 +1,11 @@
-document.getElementById('download').addEventListener('click', () => {
+document.getElementById('download').addEventListener('click', async () => {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
 
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(18);
   doc.setTextColor(34, 34, 34);
-  doc.text('Tag', 105, 20, {align: 'center'});
+  doc.text('Tag', 105, 20, { align: 'center' });
 
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(12);
@@ -13,4 +13,4 @@ document.getElementById('download').addEventListener('click', () => {
   doc.text('Generated on: ' + new Date().toLocaleDateString(), 14, 30);
 
   doc.save('tag.pdf');
-})
+});

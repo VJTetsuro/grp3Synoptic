@@ -91,3 +91,17 @@ body {
   .submit:hover {
     background-color: #005dd1;
   }
+
+#download {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#download:hover {
+  background-color: #0056b3;
+}
