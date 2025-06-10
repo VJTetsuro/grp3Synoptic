@@ -108,13 +108,16 @@ body {
 
   .menuButtons {
     margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 20px 40px;
+    padding: 80px 80px;
     border-radius: 20px;
     backdrop-filter: blur(10px);
-    display: inline-flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
