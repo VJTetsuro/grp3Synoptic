@@ -13,6 +13,5 @@ document.addEventListener('DOMContentLoaded', () => {
     doc.setTextColor(100, 100, 100);
     doc.text('Generated on: ' + new Date().toLocaleDateString(), 14, 30);
 
-    doc.save('tag.pdf');
-  });
-});
+  doc.save('tag.pdf');
+})
