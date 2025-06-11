@@ -108,22 +108,6 @@ body {
   background-color: #0056b3;
 }
 
-.menuButtons {
-  margin-top: 60px;
-  margin-left: 50px;
-  margin-right: 50px;
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: 80px 80px;
-  border-radius: 20px;
-  backdrop-filter: blur(10px);
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 30px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
 .topbar {
   width: 100%;
   display: flex;
@@ -137,12 +121,16 @@ body {
 }
 
 
-.logo, .language{
+
+.logo, .language {
   background-color: #379ec1;
   padding: 10px 20px;
   border-radius: 6px;
-  color: #ccc;
+  color: #eee;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title{
@@ -151,4 +139,183 @@ body {
   text-align: center;
   flex-grow: 1;
   margin: 0 30px;
+}
+
+.menu-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+
+.menuButtons {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 100px 120px;
+  border-radius: 30px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.menuButtons:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+  transform: scale(1.05);
+}
+
+.info-container {
+  max-width: 800px;
+  margin: 60px auto;
+  background-color: white;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.info-container h1 {
+  color: #0072ff;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.info-container h2 {
+  margin-top: 30px;
+  font-size: 24px;
+  color: #005bb5;
+}
+
+.info-container ul {
+  padding-left: 20px;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 40px;
+  background-color: #0072ff;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #005dd1;
+}
+
+.account-container {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+
+.account-container h1 {
+  color: #0072ff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.account-container p {
+  margin: 12px 0;
+  font-size: 20px;
+}
+
+.account-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.account-btn {
+  background-color: #0072ff;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.account-btn:hover {
+  background-color: #005dd1;
+}
+
+.account-btn.logout {
+  background-color: #e74c3c;
+}
+
+.account-btn.logout:hover {
+  background-color: #c0392b;
+}
+
+.tag-container {
+  max-width: 600px;
+  margin: 60px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+
+.tag-container h1 {
+  color: #0072ff;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.tag-box {
+  border: 2px dashed #0072ff;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #f0faff;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.tag-box p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.tag-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+@media print {
+  .topbar, .tag-buttons {
+    display: none;
+  }
+
+  .tag-box {
+    border: none;
+    background: white;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
 }
