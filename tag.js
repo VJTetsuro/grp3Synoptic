@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     doc.setFontSize(12);
     doc.setTextColor(100, 100, 100);
     doc.text('Generated on: ' + new Date().toLocaleDateString(), 14, 30);
-
+    
     doc.save('tag.pdf');
   });
 });
