@@ -120,12 +120,9 @@ body {
   box-sizing: border-box;
 }
 
-.language{
+.language a{
   text-decoration: none;
 }
-
-
-
 
 .logo, .language {
   background-color: #379ec1;
@@ -146,7 +143,6 @@ body {
   margin: 0 30px;
 }
 
-
 .menu-container {
   flex-grow: 1;
   display: flex;
@@ -155,7 +151,6 @@ body {
   gap: 80px;
   flex-wrap: wrap;
 }
-
 
 .menuButtons {
   background-color: rgba(255, 255, 255, 0.15);
