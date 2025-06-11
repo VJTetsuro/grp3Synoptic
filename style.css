@@ -9,88 +9,90 @@ body {
     align-items: center;
   }
   
-  .makersvalley {
-    position: absolute;
-    left: 500px;
-    height: 300px;
-    width: auto;
-  }
+.makersvalley {
+  max-height: 60px;
+  max-width: 100px;
+  width: auto;
+  height: auto;
+  display: block;
+}
   
-  .header {
-    margin-top: 60px;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 20px 40px;
-    border-radius: 20px;
-    backdrop-filter: blur(10px);
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .H1 {
-    margin-right: 800px;
-    font-size: 64px;
-    font-weight: 700;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  }
-  
-  .login-card {
-    margin-top: 40px;
-    background: white;
-    padding: 30px 40px;
-    border-radius: 16px;
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
-    width: 300px;
-  }
-  
-  .loginH2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  #loginform {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .labels {
-    margin-bottom: 5px;
-    color: #555;
-    font-weight: 500;
-  }
-  
-  .userid, .password {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    transition: border 0.3s;
-  }
-  
-  
-  .userid:focus, .password:focus {
-    border-color: #0072ff;
-    outline: none;
-  }
-  
-  .submit {
-    padding: 12px;
-    background-color: #0072ff;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
-  
-  .submit:hover {
-    background-color: #005dd1;
-  }
+.header {
+  margin-top: 60px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.H1 {
+  margin-right: 800px;
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.login-card {
+  margin-top: 40px;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  height: 350px;
+}
+
+.loginH2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#loginform {
+  display: flex;
+  flex-direction: column;
+}
+
+.labels {
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 500;
+}
+
+.userid, .password {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: border 0.3s;
+}
+
+
+.userid:focus, .password:focus {
+  border-color: #0072ff;
+  outline: none;
+}
+
+.submit {
+  padding: 12px;
+  background-color: #0072ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit:hover {
+  background-color: #005dd1;
+}
 
 #download {
   background-color: #007BFF;
@@ -106,18 +108,47 @@ body {
   background-color: #0056b3;
 }
 
-  .menuButtons {
-    margin-top: 60px;
-    margin-left: 50px;
-    margin-right: 50px;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 80px 80px;
-    border-radius: 20px;
-    backdrop-filter: blur(10px);
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
+.menuButtons {
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 80px 80px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.topbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 15px 30px;
+  border-bottom: 4px solid #00c6ff;
+  box-sizing: border-box;
+}
+
+
+.logo, .language{
+  background-color: #379ec1;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.title{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  flex-grow: 1;
+  margin: 0 30px;
+}
