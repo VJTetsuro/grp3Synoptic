@@ -120,16 +120,8 @@ body {
   box-sizing: border-box;
 }
 
-.topbar2 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #333;
-  color: white;
-  padding: 15px 30px;
-  border-bottom: 4px solid #00c6ff;
-  box-sizing: border-box;
+.language{
+  text-decoration: none;
 }
 
 
@@ -154,14 +146,6 @@ body {
   margin: 0 30px;
 }
 
-.title2{
-  font-size: 32px;
-  font-weight: bold;
-  text-align: center;
-  flex-grow: 1;
-  margin: 0 30px;
-  text-align: center;
-}
 
 .menu-container {
   flex-grow: 1;
