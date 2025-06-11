@@ -12,7 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
     doc.setFontSize(12);
     doc.setTextColor(100, 100, 100);
     doc.text('Generated on: ' + new Date().toLocaleDateString(), 14, 30);
-    
+    doc.text('UserID: admin', 14, 40);
+    const tagnum = Math.random().toString().slice(2,11);
+    doc.text('Tag Number: ' + tagnum, 14, 50);
     doc.save('tag.pdf');
   });
 });
