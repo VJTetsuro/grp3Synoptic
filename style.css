@@ -257,6 +257,10 @@ body {
   color: #0072ff;
 }
 
+.tag-box h2{
+  color: red;
+}
+
 .tag-buttons {
   display: flex;
   justify-content: center;
