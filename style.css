@@ -152,6 +152,10 @@ body {
   flex-wrap: wrap;
 }
 
+#startScreen{
+  justify-content: center;
+}
+
 .menuButtons {
   background-color: rgba(255, 255, 255, 0.15);
   padding: 100px 120px;
@@ -170,34 +174,6 @@ body {
   transform: scale(1.05);
 }
 
-.info-container {
-  max-width: 800px;
-  margin: 60px auto;
-  background-color: white;
-  padding: 40px 50px;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  font-size: 18px;
-  color: #333;
-  line-height: 1.6;
-}
-
-.info-container h1 {
-  color: #0072ff;
-  margin-bottom: 20px;
-  font-size: 32px;
-}
-
-.info-container h2 {
-  margin-top: 30px;
-  font-size: 24px;
-  color: #005bb5;
-}
-
-.info-container ul {
-  padding-left: 20px;
-}
-
 .back-button {
   display: inline-block;
   margin-top: 40px;
@@ -211,6 +187,15 @@ body {
 
 .back-button:hover {
   background-color: #005dd1;
+}
+
+.info-box{
+  text-align: center;
+  background-color: white;
+  padding: 100px;
+  margin: 10px 300px;
+  border-radius: 20px;
+  
 }
 
 .account-container {
