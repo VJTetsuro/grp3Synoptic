@@ -202,26 +202,15 @@ body {
 }
 
 .account-box {
-  max-width: 600px;
-  margin: 60px auto;
-  background-color: white;
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  font-size: 18px;
-  color: #333;
   text-align: center;
+  background-color: white;
+  padding: 20px 50px;
+  margin: 20px 300px;
+  border-radius: 20px;
 }
 
 .account-box h1 {
   color: #0072ff;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-.account-box p {
-  margin: 12px 0;
-  font-size: 20px;
 }
 
 .account-buttons {
@@ -255,35 +244,17 @@ body {
 }
 
 .tag-box {
-  max-width: 600px;
-  margin: 60px auto;
-  background-color: white;
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  font-size: 18px;
-  color: #333;
+  font-size: 20px;
   text-align: center;
+  background-color: white;
+  padding: 20px 10px;
+  margin: 20px 300px;
+  border-radius: 20px;
 }
 
 .tag-box h1 {
+  font-size: 64px;
   color: #0072ff;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-.tag-box {
-  border: 2px dashed #0072ff;
-  padding: 20px;
-  margin-bottom: 30px;
-  background-color: #f0faff;
-  border-radius: 12px;
-  text-align: left;
-}
-
-.tag-box p {
-  margin: 10px 0;
-  font-size: 18px;
 }
 
 .tag-buttons {
