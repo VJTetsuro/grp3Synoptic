@@ -3,10 +3,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
 
-    doc.setFontSize(18);
-    doc.text('Tag', doc.internal.pageSize.getWidth() / 2, 20, { align: 'center' });
+    doc.setFontSize(20);
+    doc.text(
+      'Tag', doc.internal.pageSize.getWidth() / 2, 20, { 
+      align: 'center' 
+    });
 
-    doc.setFontSize(12);
+    doc.setFontSize(10);
     doc.text('Created on: ' + new Date().toLocaleDateString(), 14, 30);
     doc.text('UserID: admin', 14, 40);
     const tagnum = Math.random().toString().slice(2,11);
